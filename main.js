@@ -36,7 +36,6 @@ btnLogin.addEventListener("click", function () {
         document.getElementById("userName").innerHTML = insertName;
         document.getElementById("code").innerHTML = (Math.round(numRandom * 5000));
         document.getElementById("carrozza").innerHTML = (`Numero tra ${min} e ${max}`, finalNum);
-        // console.log("Complimenti! hai uno sconto del 40% riservato agli over 65 anni!");
     }
 
     else {
@@ -47,4 +46,12 @@ btnLogin.addEventListener("click", function () {
         document.getElementById("carrozza").innerHTML = (`Numero tra ${min} e ${max}`, finalNum);
     }
 });
+
+btnReset.addEventListener("click", function () {
+    document.getElementById("myForm1").reset();
+    document.getElementById("myForm2").reset();
+    document.getElementById("myForm3").reset();
+    document.getElementById("myForm4").reset();
+});
+
 

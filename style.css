@@ -1,0 +1,17 @@
+main {
+    height: 100vh;
+    background-color: #B91450;
+}
+
+form h5 {
+    color: #B91450;
+}
+
+
+.col-3 {
+    min-height: 150px;
+}
+
+.input-col {
+    min-height: 250px;
+}
